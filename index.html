@@ -1,0 +1,81 @@
+<!--There are many sites out there that offer to determine which movie/tv/book character you are most like based on your answers to a short quiz. Choose a movie, tv show or book and build a website that asks users a series of questions and then tells them which movie character they are based on their answers.-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Which character are you?</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div id="quiz">
+      <form>
+        <h1>Character Quiz</h1>
+        <h3>What's your favorite hair color?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="red">
+            Red
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="black">
+            Black
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question1" value="blond">
+            Blond
+          </label>
+        </div>
+
+        <h3>What's your super power?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="flying">
+            Flying
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="superStrength">
+            Super Strength
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question2" value="invisibility">
+            Invisibility
+          </label>
+        </div>
+
+        <h3>How much do you spend on groceries per week?</h3>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="100">
+            $100
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="200">
+            $200
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question3" value="300">
+            $300
+          </label>
+        </div>
+        <button type="submit" class="btn">Go!</button>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
